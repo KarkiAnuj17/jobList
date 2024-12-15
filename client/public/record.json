@@ -1,0 +1,479 @@
+[{
+            "id": "12345",
+            "title": "Software Engineer",
+            "description": "We are looking for a passionate Software Engineer to design, develop, and maintain software solutions.",
+            "company": {
+              "name": "Tech Innovators Inc.",
+              "logoUrl": "https://example.com/company-logo1.png",
+              "about": "Tech Innovators is a leading provider of tech solutions worldwide.",
+              "size": "200-500 employees",
+              "rating": 4.5,
+              "website": "https://techinnovators.com"
+            },
+            "location": {
+              "type": "Hybrid",
+              "address": "123 Innovation Drive, San Francisco, CA",
+              "mapUrl": "https://maps.google.com/example-location1",
+              "relocationAssistance": true
+            },
+            "details": {
+              "jobType": "Full-time",
+              "salaryRange": "$80,000 - $100,000 annually",
+              "experienceLevel": "Mid-level",
+              "educationRequirements": "Bachelor's degree in Computer Science or related field",
+              "keyResponsibilities": [
+                "Develop and maintain software solutions.",
+                "Collaborate with cross-functional teams to define and implement features.",
+                "Ensure high performance and scalability of applications."
+              ],
+              "requiredSkills": ["JavaScript", "React", "Node.js", "Git"],
+              "preferredSkills": ["AWS", "CI/CD pipelines"],
+              "benefits": ["Health insurance", "401(k)", "Remote work flexibility"]
+            },
+            "applicationDetails": {
+              "postedDate": "2024-12-10",
+              "applicationDeadline": "2025-01-15",
+              "employmentStartDate": "2025-02-01",
+              "howToApply": "Submit your application via https://jobs.techinnovators.com/apply/12345",
+              "contact": {
+                "email": "recruitment@techinnovators.com",
+                "phone": "+1-555-123-4567"
+              },
+              "applicationStatus": "Open",
+              "visaSponsorship": true
+            },
+            "interviewProcess": [
+              "Initial phone screening",
+              "Technical assessment",
+              "On-site/Virtual interview",
+              "HR interview"
+            ],
+            "additionalInfo": {
+              "diversityInclusionStatement": "We are an equal opportunity employer and value diversity in our team."
+            }
+          },
+          {
+            "id": "23456",
+            "title": "Product Manager",
+            "description": "Lead the product lifecycle from ideation to delivery, ensuring alignment with business goals.",
+            "company": {
+              "name": "NextGen Solutions",
+              "logoUrl": "https://example.com/company-logo2.png",
+              "about": "NextGen Solutions specializes in delivering next-generation software for enterprise clients.",
+              "size": "500-1000 employees",
+              "rating": 4.3,
+              "website": "https://nextgensolutions.com"
+            },
+            "location": {
+              "type": "Remote",
+              "address": null,
+              "mapUrl": null,
+              "relocationAssistance": false
+            },
+            "details": {
+              "jobType": "Full-time",
+              "salaryRange": "$90,000 - $120,000 annually",
+              "experienceLevel": "Senior-level",
+              "educationRequirements": "Bachelor's degree in Business, Computer Science, or related field",
+              "keyResponsibilities": [
+                "Define product roadmap and strategy.",
+                "Coordinate with engineering and design teams.",
+                "Analyze market trends to identify opportunities."
+              ],
+              "requiredSkills": ["Agile methodologies", "Product management tools", "Leadership"],
+              "preferredSkills": ["MBA", "Experience with SaaS products"],
+              "benefits": ["Stock options", "Paid time off", "Professional development"]
+            },
+            "applicationDetails": {
+              "postedDate": "2024-12-11",
+              "applicationDeadline": "2025-01-20",
+              "employmentStartDate": "2025-03-01",
+              "howToApply": "Apply at https://careers.nextgensolutions.com/23456",
+              "contact": {
+                "email": "careers@nextgensolutions.com",
+                "phone": "+1-555-987-6543"
+              },
+              "applicationStatus": "Open",
+              "visaSponsorship": false
+            },
+            "interviewProcess": [
+              "Phone interview",
+              "Case study presentation",
+              "Panel interview"
+            ],
+            "additionalInfo": {
+              "diversityInclusionStatement": "We value diverse perspectives and prioritize an inclusive culture."
+            }
+          },
+          {
+            "id": "34567",
+            "title": "UI/UX Designer",
+            "description": "Create intuitive and visually appealing user interfaces for web and mobile applications.",
+            "company": {
+              "name": "Creative Studios",
+              "logoUrl": "https://example.com/company-logo3.png",
+              "about": "Creative Studios is a design agency specializing in user-centric solutions.",
+              "size": "50-200 employees",
+              "rating": 4.7,
+              "website": "https://creativestudios.com"
+            },
+            "location": {
+              "type": "On-site",
+              "address": "456 Design Street, New York, NY",
+              "mapUrl": "https://maps.google.com/example-location3",
+              "relocationAssistance": false
+            },
+            "details": {
+              "jobType": "Full-time",
+              "salaryRange": "$70,000 - $85,000 annually",
+              "experienceLevel": "Mid-level",
+              "educationRequirements": "Bachelor's degree in Design or related field",
+              "keyResponsibilities": [
+                "Develop user flows and wireframes.",
+                "Collaborate with developers to implement designs.",
+                "Conduct user research and usability testing."
+              ],
+              "requiredSkills": ["Figma", "Adobe Creative Suite", "User research"],
+              "preferredSkills": ["HTML/CSS", "Motion design"],
+              "benefits": ["Health insurance", "Wellness programs", "Employee discounts"]
+            },
+            "applicationDetails": {
+              "postedDate": "2024-12-09",
+              "applicationDeadline": "2025-01-10",
+              "employmentStartDate": "2025-01-25",
+              "howToApply": "Email your portfolio to careers@creativestudios.com",
+              "contact": {
+                "email": "careers@creativestudios.com",
+                "phone": "+1-555-321-6789"
+              },
+              "applicationStatus": "Open",
+              "visaSponsorship": false
+            },
+            "interviewProcess": [
+              "Portfolio review",
+              "Design challenge",
+              "Final interview with team leads"
+            ],
+            "additionalInfo": {
+              "diversityInclusionStatement": "Creative Studios is committed to fostering creativity through diverse teams."
+            }
+          },
+          {
+            "id": "45678",
+            "title": "Data Scientist",
+            "description": "Analyze complex datasets to derive actionable insights and build predictive models.",
+            "company": {
+              "name": "Data Wizards",
+              "logoUrl": "https://example.com/company-logo4.png",
+              "about": "Data Wizards is at the forefront of AI and machine learning solutions.",
+              "size": "1000+ employees",
+              "rating": 4.6,
+              "website": "https://datawizards.com"
+            },
+            "location": {
+              "type": "Remote",
+              "address": null,
+              "mapUrl": null,
+              "relocationAssistance": false
+            },
+            "details": {
+              "jobType": "Full-time",
+              "salaryRange": "$100,000 - $130,000 annually",
+              "experienceLevel": "Mid-level",
+              "educationRequirements": "Master's degree in Data Science or related field",
+              "keyResponsibilities": [
+                "Build predictive models and machine learning algorithms.",
+                "Visualize data insights for stakeholders.",
+                "Improve data collection and analysis processes."
+              ],
+              "requiredSkills": ["Python", "R", "SQL", "Machine learning"],
+              "preferredSkills": ["Deep learning", "Cloud computing"],
+              "benefits": ["Health insurance", "401(k)", "Annual bonuses"]
+            },
+            "applicationDetails": {
+              "postedDate": "2024-12-12",
+              "applicationDeadline": "2025-02-01",
+              "employmentStartDate": "2025-03-15",
+              "howToApply": "Apply at https://careers.datawizards.com/45678",
+              "contact": {
+                "email": "hr@datawizards.com",
+                "phone": "+1-555-654-9870"
+              },
+              "applicationStatus": "Open",
+              "visaSponsorship": true
+            },
+            "interviewProcess": [
+              "Online coding test",
+              "Technical interview",
+              "HR interview"
+            ],
+            "additionalInfo": {
+              "diversityInclusionStatement": "We embrace innovation through diverse backgrounds."
+            }
+          },
+  {
+    "id": "56789",
+    "title": "Backend Developer",
+    "description": "We are seeking a skilled Backend Developer to build robust server-side applications and APIs.",
+    "company": {
+      "name": "CodeCraft",
+      "logoUrl": "https://example.com/company-logo5.png",
+      "about": "CodeCraft is a top-tier software development company focusing on innovative tech solutions.",
+      "size": "500-1000 employees",
+      "rating": 4.2,
+      "website": "https://codecraft.com"
+    },
+    "location": {
+      "type": "Hybrid",
+      "address": "789 Code Street, Austin, TX",
+      "mapUrl": "https://maps.google.com/example-location5",
+      "relocationAssistance": true
+    },
+    "details": {
+      "jobType": "Full-time",
+      "salaryRange": "$95,000 - $115,000 annually",
+      "experienceLevel": "Mid-level",
+      "educationRequirements": "Bachelor's degree in Computer Science or related field",
+      "keyResponsibilities": [
+        "Design and maintain backend services and APIs.",
+        "Collaborate with frontend developers to integrate user-facing elements.",
+        "Ensure scalability and performance of applications."
+      ],
+      "requiredSkills": ["Node.js", "Express", "MongoDB", "API design"],
+      "preferredSkills": ["Docker", "GraphQL"],
+      "benefits": ["Health insurance", "Stock options", "Paid time off"]
+    },
+    "applicationDetails": {
+      "postedDate": "2024-12-01",
+      "applicationDeadline": "2025-01-15",
+      "employmentStartDate": "2025-02-01",
+      "howToApply": "Submit your application at https://jobs.codecraft.com/56789",
+      "contact": {
+        "email": "hr@codecraft.com",
+        "phone": "+1-555-567-8901"
+      },
+      "applicationStatus": "Open",
+      "visaSponsorship": true
+    },
+    "interviewProcess": [
+      "Phone interview",
+      "Technical interview",
+      "Final interview with team leads"
+    ],
+    "additionalInfo": {
+      "diversityInclusionStatement": "CodeCraft values diversity and inclusion in the workplace."
+    }
+  },
+  {
+    "id": "67890",
+    "title": "DevOps Engineer",
+    "description": "We are looking for a DevOps Engineer to streamline our software development and deployment pipelines.",
+    "company": {
+      "name": "InnovateTech",
+      "logoUrl": "https://example.com/company-logo6.png",
+      "about": "InnovateTech delivers cutting-edge cloud-based solutions for various industries.",
+      "size": "200-500 employees",
+      "rating": 4.4,
+      "website": "https://innovatech.com"
+    },
+    "location": {
+      "type": "Remote",
+      "address": null,
+      "mapUrl": null,
+      "relocationAssistance": false
+    },
+    "details": {
+      "jobType": "Full-time",
+      "salaryRange": "$110,000 - $130,000 annually",
+      "experienceLevel": "Senior-level",
+      "educationRequirements": "Bachelor's degree in Information Technology or related field",
+      "keyResponsibilities": [
+        "Develop and manage CI/CD pipelines.",
+        "Implement automation for deployment processes.",
+        "Collaborate with developers to improve system reliability."
+      ],
+      "requiredSkills": ["Docker", "Kubernetes", "AWS", "Terraform"],
+      "preferredSkills": ["Python", "CI/CD tools"],
+      "benefits": ["Health insurance", "401(k)", "Flexible work hours"]
+    },
+    "applicationDetails": {
+      "postedDate": "2024-12-05",
+      "applicationDeadline": "2025-01-25",
+      "employmentStartDate": "2025-03-01",
+      "howToApply": "Apply at https://careers.innovatech.com/67890",
+      "contact": {
+        "email": "jobs@innovatech.com",
+        "phone": "+1-555-678-9101"
+      },
+      "applicationStatus": "Open",
+      "visaSponsorship": false
+    },
+    "interviewProcess": [
+      "Phone screening",
+      "Technical interview",
+      "HR interview"
+    ],
+    "additionalInfo": {
+      "diversityInclusionStatement": "InnovateTech fosters a culture of inclusivity and equal opportunity."
+    }
+  },
+  {
+    "id": "78901",
+    "title": "Frontend Developer",
+    "description": "We are looking for a talented Frontend Developer to create dynamic and responsive web applications.",
+    "company": {
+      "name": "WebX Solutions",
+      "logoUrl": "https://example.com/company-logo7.png",
+      "about": "WebX Solutions is a leading provider of web development services.",
+      "size": "100-500 employees",
+      "rating": 4.6,
+      "website": "https://webxsolutions.com"
+    },
+    "location": {
+      "type": "Hybrid",
+      "address": "123 Web Avenue, San Diego, CA",
+      "mapUrl": "https://maps.google.com/example-location7",
+      "relocationAssistance": true
+    },
+    "details": {
+      "jobType": "Full-time",
+      "salaryRange": "$80,000 - $100,000 annually",
+      "experienceLevel": "Mid-level",
+      "educationRequirements": "Bachelor's degree in Computer Science or related field",
+      "keyResponsibilities": [
+        "Build responsive user interfaces using React.",
+        "Ensure cross-browser compatibility and mobile responsiveness.",
+        "Collaborate with design and backend teams to implement features."
+      ],
+      "requiredSkills": ["HTML", "CSS", "JavaScript", "React"],
+      "preferredSkills": ["Redux", "TypeScript"],
+      "benefits": ["Health insurance", "401(k)", "Paid time off"]
+    },
+    "applicationDetails": {
+      "postedDate": "2024-12-06",
+      "applicationDeadline": "2025-01-20",
+      "employmentStartDate": "2025-02-15",
+      "howToApply": "Submit your resume and portfolio at https://jobs.webxsolutions.com/78901",
+      "contact": {
+        "email": "careers@webxsolutions.com",
+        "phone": "+1-555-789-1234"
+      },
+      "applicationStatus": "Open",
+      "visaSponsorship": true
+    },
+    "interviewProcess": [
+      "Phone interview",
+      "Technical interview",
+      "Portfolio review"
+    ],
+    "additionalInfo": {
+      "diversityInclusionStatement": "WebX Solutions believes in a diverse and inclusive workplace."
+    }
+  },
+  {
+    "id": "89012",
+    "title": "Software Architect",
+    "description": "We are looking for an experienced Software Architect to design and implement complex software systems.",
+    "company": {
+      "name": "TechVision",
+      "logoUrl": "https://example.com/company-logo8.png",
+      "about": "TechVision is a global leader in building scalable software systems for enterprises.",
+      "size": "1000+ employees",
+      "rating": 4.8,
+      "website": "https://techvision.com"
+    },
+    "location": {
+      "type": "On-site",
+      "address": "123 Tech Road, Boston, MA",
+      "mapUrl": "https://maps.google.com/example-location8",
+      "relocationAssistance": false
+    },
+    "details": {
+      "jobType": "Full-time",
+      "salaryRange": "$130,000 - $160,000 annually",
+      "experienceLevel": "Senior-level",
+      "educationRequirements": "Master's degree in Computer Science or related field",
+      "keyResponsibilities": [
+        "Design and implement scalable software architectures.",
+        "Mentor development teams on best practices.",
+        "Ensure high availability and performance of systems."
+      ],
+      "requiredSkills": ["Java", "Spring", "Microservices", "Cloud architecture"],
+      "preferredSkills": ["Kubernetes", "CI/CD"],
+      "benefits": ["Health insurance", "Stock options", "401(k)"]
+    },
+    "applicationDetails": {
+      "postedDate": "2024-12-07",
+      "applicationDeadline": "2025-01-30",
+      "employmentStartDate": "2025-04-01",
+      "howToApply": "Submit your application at https://careers.techvision.com/89012",
+      "contact": {
+        "email": "hr@techvision.com",
+        "phone": "+1-555-890-1234"
+      },
+      "applicationStatus": "Open",
+      "visaSponsorship": true
+    },
+    "interviewProcess": [
+      "Phone screening",
+      "Technical interview",
+      "System design interview"
+    ],
+    "additionalInfo": {
+      "diversityInclusionStatement": "TechVision promotes diversity in all its forms and strives for an inclusive environment."
+    }
+  },
+  {
+    "id": "90123",
+    "title": "Product Designer",
+    "description": "Join our design team to create user-friendly and visually engaging product designs.",
+    "company": {
+      "name": "Pixel Creators",
+      "logoUrl": "https://example.com/company-logo9.png",
+      "about": "Pixel Creators focuses on building intuitive products with a strong emphasis on design excellence.",
+      "size": "50-200 employees",
+      "rating": 4.5,
+      "website": "https://pixelcreators.com"
+    },
+    "location": {
+      "type": "On-site",
+      "address": "234 Pixel Avenue, Los Angeles, CA",
+      "mapUrl": "https://maps.google.com/example-location9",
+      "relocationAssistance": true
+    },
+    "details": {
+      "jobType": "Full-time",
+      "salaryRange": "$80,000 - $95,000 annually",
+      "experienceLevel": "Mid-level",
+      "educationRequirements": "Bachelor's degree in Design or related field",
+      "keyResponsibilities": [
+        "Create wireframes, prototypes, and user flows.",
+        "Collaborate with developers and product managers.",
+        "Conduct user research and usability testing."
+      ],
+      "requiredSkills": ["Sketch", "Figma", "User testing"],
+      "preferredSkills": ["HTML/CSS", "UX research"],
+      "benefits": ["Health insurance", "Paid time off", "Gym membership"]
+    },
+    "applicationDetails": {
+      "postedDate": "2024-12-08",
+      "applicationDeadline": "2025-01-15",
+      "employmentStartDate": "2025-02-01",
+      "howToApply": "Submit your portfolio at https://careers.pixelcreators.com/90123",
+      "contact": {
+        "email": "jobs@pixelcreators.com",
+        "phone": "+1-555-901-2345"
+      },
+      "applicationStatus": "Open",
+      "visaSponsorship": false
+    },
+    "interviewProcess": [
+      "Portfolio review",
+      "Design challenge",
+      "Interview with team leads"
+    ],
+    "additionalInfo": {
+      "diversityInclusionStatement": "Pixel Creators is committed to creating diverse and inclusive design teams."
+    }
+  }
+]
