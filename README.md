@@ -21,7 +21,7 @@ A fully responsive Job Listings Application built with **React** and **Next.js**
   - **Description**
   - **Company**
   - **Location**
-  =**and So on...**
+  -**and So on...**
 
 ### **4. State Management**
 - Allow users to mark jobs as **favourites** from the Job Details page.

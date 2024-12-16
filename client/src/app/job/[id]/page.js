@@ -13,16 +13,14 @@ const JobDetail = ({ params }) => {
   const [job, setJob] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  // Unwrap params with React.use() if using Next.js 15.x.x
   const { id } = React.use(params);
 
   useEffect(() => {
     if (id) {
-      // Fetch job details based on the 'id'
       fetch(`/record.json`)
         .then((res) => res.json())
         .then((data) => {
-          const foundJob = data.find((job) => job.id === id); // Find the job by ID
+          const foundJob = data.find((job) => job.id === id); 
           if (foundJob) {
             setJob(foundJob);
           }
