@@ -2,11 +2,13 @@
 import React, { useState } from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
+import Link from 'next/link';
+import { Button } from '@nextui-org/react';
 
 const ApplyJobForm = () => {
-  const [isSubmitting, setIsSubmitting] = useState(false); // Track form submission status
+  const [isSubmitting, setIsSubmitting] = useState(false); 
 
-  // Validation schema
+  
   const validationSchema = Yup.object({
     fullName: Yup.string()
       .required('Full Name is required')
@@ -39,13 +41,13 @@ const ApplyJobForm = () => {
   };
 
   const handleSubmit = (values) => {
-    setIsSubmitting(true); // Start the loader
+    setIsSubmitting(true); 
 
     setTimeout(() => {
       console.log('Form Submitted:', values);
       alert('Application Submitted Successfully!');
-      setIsSubmitting(false); // Stop the loader
-    }, 2000); // Simulate API call with a 2-second delay
+      setIsSubmitting(false); 
+    }, 2000); 
   };
 
   return (
@@ -91,20 +93,18 @@ const ApplyJobForm = () => {
             </div>
 
             <div className="flex justify-between mt-6">
-              <button
+              <Button
                 type="submit"
                 className={`px-6 py-3 bg-blue-600 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 ${isSubmitting ? 'opacity-50 cursor-not-allowed' : ''}`}
                 disabled={isSubmitting}
               >
                 {isSubmitting ? 'Submitting...' : 'Submit Application'}
-              </button>
-              <button
-                type="button"
-                onClick={() => resetForm()}
-                className="px-6 py-3 bg-gray-600 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-gray-500"
-              >
-                Clear
-              </button>
+              </Button>
+              <Link href="/">
+              <Button className="px-6 py-3 bg-gray-600 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-gray-500">
+                Return to Job Listing
+              </Button>
+              </Link>
             </div>
           </Form>
         )}

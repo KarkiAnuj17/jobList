@@ -14,11 +14,11 @@ const JobList = () => {
   const [favorites, setFavorites] = useState([]);
   const [viewFavorites, setViewFavorites] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const jobsPerPage = 5; // Number of jobs per page
+  const jobsPerPage = 5;
   const router = useRouter();
 
   useEffect(() => {
-    fetch("/record.json") // Assumes your jobs are stored here
+    fetch("/record.json")
       .then((res) => res.json())
       .then((data) => {
         setJobs(data);
@@ -28,17 +28,20 @@ const JobList = () => {
   }, []);
 
   const toggleFavorite = (jobId) => {
+    const jobIdString = String(jobId); // Ensure IDs are strings
     setFavorites((prev) =>
-      prev.includes(jobId) ? prev.filter((id) => id !== jobId) : [...prev, jobId]
+      prev.includes(jobIdString)
+        ? prev.filter((id) => id !== jobIdString)
+        : [...prev, jobIdString]
     );
   };
 
   const handleSeeDetail = (jobId) => {
-    router.push(`/job/${jobId}`); // Navigate to job detail page
+    router.push(`/job/${jobId}`);
   };
 
   const displayedJobs = viewFavorites
-    ? jobs.filter((job) => favorites.includes(job.id))
+    ? jobs.filter((job) => favorites.includes(String(job.id))) // Compare as strings
     : jobs;
 
   // Pagination Logic
@@ -72,8 +75,8 @@ const JobList = () => {
             <Card key={job.id} className="mb-4 shadow-md hover:shadow-lg">
               <CardHeader>
                 <div>
-                <h2 className="text-xl font-semibold">{job.title}</h2>
-                <p>{job.company.name} - {job.location.type}</p>
+                  <h2 className="text-xl font-semibold">{job.title}</h2>
+                  <p>{job.company.name} - {job.location.type}</p>
                 </div>
               </CardHeader>
               <Divider />
@@ -89,11 +92,11 @@ const JobList = () => {
                     <RiMoneyDollarCircleFill /> {job.details.salaryRange}
                   </span>
                 </div>
-                <div className="flex gap-2 flex-wrap">
+                <div className="flex gap-2 flex-wrap m-1">
                   {job.details.requiredSkills.map((skill, index) => (
                     <span
                       key={index}
-                      className="bg-gray-200 px-2 py-1 text-sm rounded"
+                      className="bg-gray-800 m-1 px-3 py-2 text-sm text-white rounded-large"
                     >
                       {skill}
                     </span>
@@ -108,27 +111,26 @@ const JobList = () => {
                 <Button
                   onClick={() => toggleFavorite(job.id)}
                   className={`${
-                    favorites.includes(job.id) ? "text-red-600" : "text-gray-600"
+                    favorites.includes(String(job.id)) ? "bg-red-600 text-white" : "text-black"
                   }`}
                 >
-                  <FaHeart /> {favorites.includes(job.id) ? "Favorited" : "Favorite"}
+                  <FaHeart /> {favorites.includes(String(job.id)) ? "Favorited" : "Favorite"}
                 </Button>
                 <div className="flex gap-2">
                   <Button
                     className="bg-gray-300 text-black"
-                    onClick={() => handleSeeDetail(job.id)} // View Details
+                    onClick={() => handleSeeDetail(job.id)} 
                   >
                     See Details
                   </Button>
                   <Link href="/apply">                 
-                <Button className="bg-black text-white" >Apply</Button>
+                    <Button className="bg-black text-white">Apply</Button>
                   </Link>
                 </div>
               </CardFooter>
             </Card>
           ))}
 
-          {/* Pagination Controls */}
           <div className="flex justify-center items-center mt-6 gap-2">
             <Button
               className="bg-gray-300"
