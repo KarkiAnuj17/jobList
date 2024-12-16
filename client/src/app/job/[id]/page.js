@@ -135,9 +135,11 @@ const JobDetail = ({ params }) => {
         <Divider />
 
         <CardFooter className="flex justify-between items-center">
+          <Link href="/apply">
           <Button variant="bordered" size="xl" startContent={<FaLocationArrow />} className="bg-black text-white">
             Apply
           </Button>
+          </Link>
           <Link href="/"> <Button className="text-xl items-center bg-black text-white">Return to Job Listing</Button></Link>
 
         </CardFooter>

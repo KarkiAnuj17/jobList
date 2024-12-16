@@ -14,7 +14,7 @@ const JobList = () => {
   const [favorites, setFavorites] = useState([]);
   const [viewFavorites, setViewFavorites] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const jobsPerPage = 5;
+  const jobsPerPage = 2;
   const router = useRouter();
 
   useEffect(() => {
