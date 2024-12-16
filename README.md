@@ -9,7 +9,6 @@ A fully responsive Job Listings Application built with **React** and **Next.js**
 ### **1. Data Fetching**
 - Fetch job data from a mock JSON file.
 - Display the list of jobs dynamically on the homepage.
-<img width="941" alt="j1" src="https://github.com/user-attachments/assets/2d1422b8-454b-4ed8-bda1-9bb45961b7ed" />
 
 ### **2. Pagination**
 - Display a limited number of job listings per page.
@@ -23,7 +22,6 @@ A fully responsive Job Listings Application built with **React** and **Next.js**
   - **Company**
   - **Location**
   -**and So on...**
-<img width="956" alt="j3" src="https://github.com/user-attachments/assets/2b56e080-14f5-4cd2-8e5f-66e4e17b7047" />
 
 ### **4. State Management**
 - Allow users to mark jobs as **favourites** from the Job Details page.
